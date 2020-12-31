@@ -1,0 +1,2 @@
+# UAbALL
+laboratório virtual integrado de simulação de autómatos, gramáticas e máquinas de Turing, que permitam dar apoio às unidades curriculares de Linguagens e Computação e de Compilação, bem como disponibilizar o seu acesso à comunidade académica em geral. Neste projeto, em particular, pretende-se iniciar a implementação do laboratório virtual, incluindo já a implementação da simulação de autómatos finitos deterministas.
