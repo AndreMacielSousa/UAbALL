@@ -1,0 +1,44 @@
+<div id="PT">
+
+<p><strong>GRAMMAR – Gramática Livre de Contexto -</strong> são modelos uteis na conceção de software que processa estrutura de dados recursivamente. O exemplo mais conhecido é o “<em>parsing</em>”, componente de um compilador que lida com os recursos aninhados recursivamente da linguagem de programação, como expressões aritméticas condicionais. É representada formalmente por uma 4-upla (V, T, P, S), onde: </p>
+<ul>
+ 	<li>V é o conjunto de variáveis</li>
+ 	<li>T é o conjunto de terminais</li>
+ 	<li>P é o conjunto de produções</li>
+ 	<li>S o símbolo inicial, que deverá ser elemento de V.</li>
+</ul>
+<p>Um exemplo de uma Gramática Livre de Contexto para números binários compostos por n zeros seguidos de n uns é dado por CFG=({S}, [0,1}, {S-&gt;01, S-&gt;0S1}, {S}). </p
+
+<p>Existem algumas operações possíveis de realizar sobre autómatos, as quais deverão ser alvo de versões posteriores deste Laboratório, como a conversão NFA-ε para NFA, NFA para DFA, DFA para Expressões Regulares, Expressões Regulares para NFA-ε e Gramática Livre de Contexto para PDA. </p>
+<hr/>
+</div>
+
+<div id="ES">
+
+<p><strong>GRAMÁTICA - Gramática Libre de Contexto - </strong>son modelos útiles en el diseño de software que procesa la estructura de los datos de forma recursiva. El ejemplo más conocido es el "análisis sintáctico", un componente del compilador que se ocupa de las características anidadas recursivamente del lenguaje de programación, como las expresiones aritméticas condicionales. Está formalmente representado por un 4-tupla (V, T, P, S), donde:</p>
+<ul>
+ 	<li>V es el conjunto de variables</li>
+ 	<li>T es el conjunto de terminales</li>
+ 	<li>P es el conjunto de producciones</li>
+ 	<li>S el símbolo inicial, que debe ser elemento de V.</li>
+</ul>
+<p>Un ejemplo de una Gramática Libre de Contexto para números binarios compuestos de números seguidos de n es dado por CFG=({S}, [0.1}, {S-&gt;01, S-&gt;0S1}, {S}).</p>
+
+<p>Hay algunas posibles operaciones a realizar en los autómatas, que deberían ser objeto de versiones posteriores de este Laboratorio, como la conversión de NFA-ε a NFA, NFA a DFA, DFA a Expresiones Regulares, Expresiones Regulares a NFA-ε y Gramática Libre de Contexto para PDA.</p>
+<hr/>
+</div>
+
+<div id="EN">
+
+<p><strong>GRAMMAR - Context-Free Grammar</strong> - are useful models in the design of software that processes data structure recursively. The best-known example is “parsing”, a compiler component that deals with the recursively nested resources of the programming language, such as conditional arithmetic expressions. It`s formally represented by a 4-upla (V, T, P, S), where: </p>
+<ul>
+ 	<li>V is the set of variables</li>
+ 	<li>T is the set of terminals</li>
+ 	<li>P is the set of productions</li>
+ 	<li>S the initial symbol, which should be a V element.</li>
+</ul>
+<p>An example of a Context-Free Grammar for binary numbers composed of n zeros followed by n ones is given by CFG = ({S}, [0,1}, {S-&gt; 01, S-&gt; 0S1}, {S}).</p>
+
+<p>There are some viable operations to be carried out on automata, which should be the target of later versions of this Laboratory, such as converting NFA-ε to NFA, NFA to DFA, DFA for Regular Expressions, Regular Expressions for NFA-ε and Context-Free Grammar for PDA.</p>
+<hr/>
+</div>

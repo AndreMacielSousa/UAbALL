@@ -1,0 +1,379 @@
+<div id="PT">
+	<p>
+		<strong>DFA – Autómatos Finitos Deterministas</strong> – apresentam uma
+		Função em que para cada estado e cada símbolo, possui uma única transição,
+		começando em um estado inicial e avança para próxima célula após leitura de
+		um símbolo. É representado formalmente por uma 5-tupla (Q, Σ, δ, q0, F),
+		onde:
+	</p>
+	<ul>
+		<li>Q é um conjunto finito de estados.</li>
+		<li>Σ é um conjunto finito de símbolos, Alfabeto.</li>
+		<li>δ é a função de transição, isto é, δ: Q x Σ → Q.</li>
+		<li>
+			q0 é o estado inicial, isto é, o estado do autómato antes de qualquer
+			entrada ser processada, onde q0 ∈ Q
+		</li>
+		<li>
+			F é um subconjunto de estados de Q (isto é, F ⊆ Q) chamado de estados de
+			aceitação.
+		</li>
+	</ul>
+	<hr />
+	<!--  Simulador  PT-->
+	<h3>SIMULADOR</h3>
+	<!-- Tabela para carregamento dados -->
+	<table>
+		<tr>
+			<td id="simula_carga">
+				<div>
+					<!-- Carregamento de ficheiro -->
+					<div id="file">
+						<label for="fileToLoad"
+							>Carregar um ficheiro UAbALL guardado:</label>
+						<input
+							type="file"
+							id="fileToLoad"
+							name="fileToLoad"
+							onchange="ler_UAbALL()"
+						/>
+						<br /><br />
+					</div>
+					<!-- Carregamento numero de estados -->
+					<label for="nEstados">Número de Estados: </label>
+					<input
+						type="number"
+						id="nEstados"
+						min="2"
+						max="30"
+						size="3"
+						value="2"
+						name="nEstados"
+					/>
+					<br /><br />
+					<!-- Carregamento simbolos -->
+					<label for="symbols"
+						>Alfabeto, conjunto finito de símbolos. &Sigma; =</label
+					>
+					<input
+						type="Symbols"
+						id="symbols"
+						size="9"
+						value="01"
+						name="symbols"
+					/>
+					<br /><em
+						>(colocar os símbolos seguidos, como no exemplo, sem qualquer
+						separação)</em>
+					<br /><br />
+					<!-- Ativar tabela transições -->
+					<label for="trasitions">Ativar tabela transições : </label>
+				
+					<input
+						type="button"
+						id="constroi_transitions"
+						name="trasitions"
+						value="Ativar &delta;"
+						onclick="constroi_transitions()"
+					/>
+					<br /><br />
+					<!-- espaço para tabela de transições gerada em dfa.js-->
+					<table id="transitions"></table>
+				
+				</div>
+			</td>
+			<td>
+				<!-- coluna que recebe tabela de testes a simular-->
+				<div id="charge" style="display: none;">
+					<button id="run_simul" onclick="simular()">Simular</button>
+					<button id="limp_simul" onclick="limpar()" disabled="true">
+						Limpar
+					</button>
+					<br />
+					<div id="results"></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<!-- Target for dynamic svg generation -->
+	<div id="graphviz_svg_div"></div>
+	<!-- Tabela para interação com simulador viz -->
+	<table id="passos">
+		<tr>
+			<td>
+				<div id="simula_viz" style="display: none;">
+				<h4>	Simulação passo-a-passo</h4>
+				<!-- Simulação passo-a-passo -->
+				<label for="trasitions">Inserir input: </label>
+				<input id="input" size="35" name="trasitions"/>
+				<br /><em
+						>(colocar os símbolos seguidos sem qualquer separação)</em>
+				<br /><br />
+				<label for="inputConsumido">input consumido: </label>
+				<input
+					id="inputConsumido"
+					size="30"
+					readonly="readonly"
+				/>
+				<br /><br />
+				<button id="simula_passo" onclick="percorre()">Passo</button>
+				<em id="resultado"></em>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ END PT +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<div id="ES">
+	<p>
+		<strong>Los DFA - Autómatas Determinantes Finitos</strong> - presentan una
+		Función en la que para cada estado y cada símbolo, tiene una única
+		transición, comenzando en un estado inicial y pasando a la siguiente celda
+		después de leer un símbolo. Está formalmente representado por una 5-tupla
+		(Q, Σ, δ, q0, F), donde:
+	</p>
+	<ul>
+		<li>Q es un conjunto finito de estados.</li>
+		<li>Σ es un conjunto finito de símbolos, el Alfabeto.</li>
+		<li>δ es la función de transición, es decir δ: Q x Σ → Q.</li>
+		<li>
+			q0 es el estado inicial, es decir, el estado del autómata antes de que se
+			procese cualquier entrada, donde q0 ∈ Q.
+		</li>
+		<li>
+			F es un conjunto de estados Q (es decir, F ⊆ Q) llamados estados de
+			aceptación.
+		</li>
+	</ul>
+	<hr />
+	<!--  Simulador  ES-->
+	<h3>SIMULADOR</h3>
+	<!-- Tabla para cargar datos -->
+	<table>
+		<tr>
+			<td id="simula_carga">
+				<div>
+					<!-- Subir archivo -->
+					<div id="file">
+						<label for="fileToLoad"
+							>Cargar un archivo guardado UAbALL:</label
+						>
+						<input
+							type="file"
+							id="fileToLoad"
+							name="fileToLoad"
+							onchange="ler_UAbALL()"
+						/>
+						<br /><br />
+					</div>
+					<!-- Cargando número de estados -->
+					<label for="nEstados">Número de Estados: </label>
+					<input
+						type="number"
+						id="nEstados"
+						min="2"
+						max="30"
+						size="3"
+						value="2"
+						name="nEstados"
+					/>
+					<br /><br />
+					<!-- Cargando símbolos -->
+					<label for="symbols"
+						>Alfabeto, conjunto finito de símbolos. &Sigma; =</label
+					>
+					<input
+						type="Symbols"
+						id="symbols"
+						size="9"
+						value="01"
+						name="symbols"
+					/>
+					<br /><em
+						>(colocar los símbolos en una fila, como en el ejemplo, sin ninguna
+						separación)</em					>
+					<br /><br />
+					<!--Habilitar transiciones de tabla -->
+					<label for="trasitions">Habilitar transiciones de tabla : </label>
+					<input
+						type="button"
+						id="constroi_transitions"
+						name="trasitions"
+						value="Activar &delta;"
+						onclick="constroi_transitions()"
+					/>
+					<br /><br />
+					<!-- espacio para tabla de transición genera en dfa.js-->
+					<table id="transitions"></table>
+				</div>
+			</td>
+			<td>
+				<!-- coluna que recebe tabela de testes a simular-->
+				<div id="charge" style="display: none;">
+					<button id="run_simul" onclick="simular()">Simular</button>
+					<button id="limp_simul" onclick="limpar()" disabled="true">
+						Borrar
+					</button>
+					<br />
+					<div id="results"></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<!-- Target for dynamic svg generation -->
+	<div id="graphviz_svg_div"></div>
+	<!-- Tabla para la interacción con el simulador viz -->
+	<table id="passos">
+		<tr>
+			<td>
+				<div id="simula_viz" style="display: none;">
+				<h4>	Paso a paso de simulación</h4>
+				<!-- Paso a paso de simulación -->
+				<label for="trasitions">Poner input: </label>
+				<input id="input" size="10" name="trasitions"/>
+				<br /><em
+						>(colocar los símbolos en una fila sin ninguna separación)</em>
+				<br /><br />
+				<label for="inputConsumido">input consumido: </label>
+				<input
+					id="inputConsumido"
+					size="10"
+					readonly="readonly"
+				/>
+				<br /><br />
+				<button id="simula_passo" onclick="percorre()">Paso</button>
+				<em id="resultado"></em>
+			</td>
+		</tr>
+	</table>
+
+
+
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ END ES +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<div id="EN">
+	<p>
+		<strong>DFA - Deterministic Finite Automata </strong>- presents a Function
+		in which, for every state and each symbol, there is a single transition,
+		starting in an initial state and progressing to the next cell after reading
+		a symbol. It is formally represented by a 5-tuple (Q, Σ, δ, q0, F), where:
+	</p>
+	<ul>
+		<li>Q is a finite set of states.</li>
+		<li>Σ is a finite set of symbols, Alphabet.</li>
+		<li>δ is the transition function, that is, δ: Q x Σ → Q.</li>
+		<li>
+			q0 is the initial state, that is, the state of the automata before any
+			input is processed, where q0 ∈ Q
+		</li>
+		<li>
+			F is a set of states of Q (that is, F ⊆ Q) called acceptance states.
+		</li>
+	</ul>
+	<hr />
+	<!--  Simulator  EN-->
+	<h3>SIMULADOR</h3>
+	<!-- Table for given loading -->
+	<table>
+		<tr>
+			<td id="simula_carga">
+				<div>
+					<!-- File upload -->
+					<div id="file">
+						<label for="fileToLoad"
+							>Load a saved file UAbALL:</label
+						>
+						<input
+							type="file"
+							id="fileToLoad"
+							name="fileToLoad"
+							onchange="ler_UAbALL()"
+						/>
+						<br /><br />
+					</div>
+					<!-- Charging number of states -->
+					<label for="nEstados">Number of States: </label>
+					<input
+						type="number"
+						id="nEstados"
+						min="2"
+						max="30"
+						size="3"
+						value="2"
+						name="nEstados"
+					/>
+					<br /><br />
+					<!-- Loading symbols -->
+					<label for="symbols"
+						>Alphabet, finite set of symbols. &Sigma; =</label
+					>
+					<input
+						type="Symbols"
+						id="symbols"
+						size="9"
+						value="01"
+						name="symbols"
+					/>
+					<br /><em
+						>(put the row symbols, as in the example, without any separation)</em
+					>
+					<br /><br />
+					<!-- Ativar tabela transições -->
+					<label for="trasitions">Enable table transitions : </label>
+					<input
+						type="button"
+						id="constroi_transitions"
+						name="trasitions"
+						value="Enable &delta;"
+						onclick="constroi_transitions()"
+					/>
+					<br /><br />
+					<!-- transitions table space generated in dfa.js-->
+					<table id="transitions"></table>
+				</div>
+			</td>
+			<td>
+				<!-- coluna que recebe tabela de testes a simular-->
+				<div id="charge" style="display: none;">
+					<button id="run_simul" onclick="simular()">Simulate</button>
+					<button id="limp_simul" onclick="limpar()" disabled="true">
+						Clean
+					</button>
+					<br />
+					<div id="results"></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<!-- Target for dynamic svg generation -->
+	<div id="graphviz_svg_div"></div>
+	<!-- Table for interaction with simulator viz -->
+	<table id="passos">
+		<tr>
+			<td>
+				<div id="simula_viz" style="display: none;">
+				<h4>	Step-by-step simulation</h4>
+				<!-- Step-by-step simulation -->
+				<label for="trasitions">Insert input: </label>
+				<input id="input" size="10" name="trasitions"/>
+				<br /><em
+						>(put the row symbols without any separation)</em>
+				<br /><br />
+				<label for="inputConsumido">consumed input: </label>
+				<input
+					id="inputConsumido"
+					size="10"
+					readonly="readonly"
+				/>
+				<br /><br />
+				<button id="simula_passo" onclick="percorre()">Step</button>
+				<em id="resultado"></em>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ END EN +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->

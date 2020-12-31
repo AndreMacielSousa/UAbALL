@@ -1,0 +1,43 @@
+<div id="PT">
+
+<p><strong>NFA-</strong><strong>ε – Autómatos Finitos Não-Deterministas com Movimentos Vazios </strong>– semelhantes aos NFA, acrescendo a possibilidade de transições de estados sem leitura de um símbolo da Fita. É representado formalmente por uma 5-tupla (Q, Σ, δ, q0, F), onde: </p>
+<ul>
+ 	<li>Q é um conjunto finito de estados.</li>
+ 	<li>Σ é um conjunto finito de símbolos, Alfabeto.</li>
+ 	<li>δ é a função de transição, isto é, δ: Q x Σ → P(Q).
+<ul>
+ 	<li>P(Q) conjunto das partes de Q.</li>
+</ul>
+</li>
+ 	<li>q0 é o estado inicial, onde q0 ∈ Q.</li>
+ 	<li>F é um subconjunto de estados de Q (isto é, F ⊆ Q) chamado de estados de aceitação.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="ES">
+
+<p><strong>NFA-ε - Autómatas finitos no deterministas con movimientos vacíos </strong>- similar a NFA, añadiendo la posibilidad de transiciones de estado sin leer un símbolo de la cinta. Está formalmente representado por una 5-tupla (Q, Σ, δ, q0, F), donde:</p>
+<ul>
+ 	<li>Q es un conjunto finito de estados.</li>
+ 	<li>Σ es un conjunto finito de símbolos, el Alfabeto.</li>
+ 	<li>δ es la función de transición, es decir δ: Q x Σ → P(Q).</li>
+ 	<li>P(Q) conjunto de partes de Q.</li>
+ 	<li>q0 es el estado inicial, donde q0 ∈ Q.</li>
+ 	<li>F es un conjunto de estados de Q (es decir, F ⊆ Q) llamados estados de aceptación.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="EN">
+<p><strong>NFA - Finite Non-Deterministic Automata whith Empty Movements </strong>- similar to NFA, adding the possibility of state transitions without reading a Ribbon symbol. It is formally represented by a 5-tuple (Q, Σ, δ, q0, F), where:</p>
+<ul>
+ 	<li>Q is a finite set of states.</li>
+ 	<li>Σ is a finite set of symbols, Alphabet.</li>
+ 	<li>δ is the transition function, that is, δ: Q x Σ → P (Q).</li>
+ 	<li>P (Q) set of parts of Q.</li>
+ 	<li>q0 is the initial state, where q0 ∈ Q.</li>
+ 	<li>F is a set of states of Q (that is, F ⊆ Q) called acceptance states.</li>
+</ul>
+<hr/>
+</div>

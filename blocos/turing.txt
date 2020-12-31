@@ -1,0 +1,43 @@
+<div id="PT">
+
+<p><strong>TURING – Máquina de Turing</strong> – os autómatos desta classe são capazes de executar quaisquer tarefas que sejam efetivamente computáveis.  Na MT a Fita é extensível para a esquerda e para a direita, i.e.., a MT possui a Fita necessária à computação onde as células ainda não preenchidas estão preenchidas com um símbolo especial <em>branco</em>. A Unidade de Controlo (cabeça) lê e escreve símbolos na fita movendo-se para esquerda ou direita. A Função de Transição além do movimento indica que símbolo deverá ser escrito, quando não existirem entrada na tabela para a combinação atual de símbolo e estado a máquina para. É representada formalmente por uma 7-upla (Q, Σ, Γ, q0, b, F, δ), onde:</p>
+<ul>
+ 	<li>Q é um conjunto finito de estados.</li>
+ 	<li>Σ é um conjunto finito de símbolos, Alfabeto.</li>
+ 	<li>Γ é um conjunto finito de símbolos, Alfabeto da Fita.</li>
+ 	<li>q0 é o estado inicial, onde q0 ∈ Q.</li>
+ 	<li>b é o símbolo branco, onde b ∈ Γ.</li>
+ 	<li>F é um subconjunto de estados de Q (isto é, F ⊆ Q) chamado de estados de aceitação.</li>
+ 	<li>δ: é a relação de transição, em que R e L são as direções direita e esquerda, respetivamente.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="ES">
+
+<p><strong>TURING – Máquina de Turing (MT)</strong> –Los autómatas de esta clase son capaces de realizar cualquier tarea que sea efectivamente computable.  En la MT la cinta es extensible a la izquierda y a la derecha, es decir, la MT tiene la cinta de cálculo necesaria donde los nodos que aún no están llenos se completan con un símbolo especial blanco. La unidad de control (cabeza) lee y escribe símbolos en la cinta moviéndose a la izquierda o a la derecha. La función de transición más allá del movimiento indica qué símbolo debe escribirse cuando no hay ninguna entrada en la tabla para la combinación actual de símbolo y el estado en que la máquina se detiene. Está formalmente representado por un 7-tupla (Q, Σ, Γ, q0, b, F, δ), donde: </p>
+<ul>
+ 	<li>Q es un conjunto finito de estados.</li>
+ 	<li>Σ es un conjunto finito de símbolos, el Alfabeto.</li>
+ 	<li>Γ es un conjunto finito de símbolos, el Alfabeto de la Cinta.</li>
+ 	<li>q0 es el estado inicial, donde q0 ∈ Q.</li>
+ 	<li>b es el símbolo blanco, donde b ∈  Γ.</li>
+ 	<li>F es un conjunto de estados de Q (es decir, F ⊆ Q) llamados estados de aceptación.</li>
+ 	<li>δ: Q×⇒Q × Γ ×{L,R} es el ratio de transición, donde R y L son las direcciones derecha e izquierda respectivamente.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="EN">
+<p><strong>TURING - Turing machine</strong> - the automata of this class are capable of performing any effectively computable tasks. In the MT the Tape is extendable to the left and the right, i.e., the MT has the Tape necessary for computing where the cells not yet filled are filled with a special white symbol. The Control Unit (head) reads and writes symbols on the tape moving left or right. The Transition Function in addition to the movement indicates which symbol should be written, when there is no entry in the table for the current combination of symbol, and state the machine stops. It is formally represented by a 7-upla (Q, Σ, Γ, q0, b, F, δ), where: </p>
+<ul>
+ 	<li>Q is a finite set of states.</li>
+ 	<li>Σ is a finite set of symbols, Alphabet.</li>
+ 	<li>Γ is a finite set of symbols, Alphabet of tape.</li>
+ 	<li>q0 is the initial state, where q0 ∈ Q.</li>
+ 	<li>b is the white symbol, where b ∈ Γ.</li>
+ 	<li>F is a set of states of Q (that is, F ⊆ Q) called acceptance states.</li>
+ 	<li>δ: Q × Γ⇒Q × Γ × {L, R} is the transition relationship, where R and L are the right and left directions, respectively.</li>
+</ul>
+<hr/>
+</div>

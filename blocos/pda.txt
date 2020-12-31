@@ -1,0 +1,42 @@
+<div id="PT">
+
+<p><strong>PDA – Autómato Pilha</strong> – também conhecidos como autómatos <em>push-down </em>são máquinas semelhantes aos autómatos finitos anteriores, acoplado a uma pilha que funciona como memoria auxiliar, que pode armazenar uma <em>String </em>de comprimento arbitrário. A pilha pode ser lida e modificada apenas na parte superior. É representado formalmente por uma 6-tupla (Q, Σ, Γ, Δ, q0, F), onde:</p>
+<ul>
+ 	<li>Q é um conjunto finito de estados.</li>
+ 	<li>Σ é um conjunto finito de símbolos, Alfabeto.</li>
+ 	<li>Γ é um conjunto finito de símbolos, Alfabeto da pilha.</li>
+ 	<li>Δ ⊆ (Q X Σ* X Γ*) X (Q × Γ*) é a relação de transição.</li>
+ 	<li>q0 é o estado inicial, onde q0 ∈ Q.</li>
+ 	<li>F é um subconjunto de estados de Q (isto é, F ⊆ Q) chamado de estados de aceitação.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="ES">
+
+<p><strong>PDA - Autómata de pila</strong> - también conocido como autómata de empuje (push-down), son máquinas similares a los autómatas finitos anteriores, acopladas a una pila que funciona como una memoria auxiliar, que puede almacenar una cadena de longitud arbitraria. La pila sólo puede ser leída y modificada en la parte superior. Está formalmente representado por un 6-tupla (Q, Σ, Γ, Δ, q0, F), donde:</p>
+<ul>
+ 	<li>Q es un conjunto finito de estados.</li>
+ 	<li>Σ es un conjunto finito de símbolos, el Alfabeto.</li>
+ 	<li>Γ es un conjunto finito de símbolos, Alfabeto de la pila.</li>
+ 	<li>Δ ⊆ Δ ⊆ (Q X Σ* X Γ*) X (Q × Γ*) es el ratio de transición.</li>
+ 	<li>q0 es el estado inicial, donde q0 ∈ Q.</li>
+ 	<li>F es un conjunto de estados Q (es decir, F ⊆ Q) llamados estados de aceptación.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="EN">
+<p><strong>PDA - Stack Automaton</strong> - also known as push-down automata are machines similar to former finite automata, coupled to a stack that functions as an auxiliary memory, which can store a string of arbitrary length. The stack can only be read and modified at the top. It is formally represented by a 6-tuple (Q, Σ, Γ, Δ, q0, F), where: </p>
+
+&nbsp;
+<ul>
+ 	<li>Q is a finite set of states.</li>
+ 	<li>Σ is a finite set of symbols, Alphabet.</li>
+ 	<li>Γ is a finite set of symbols, the Stack alphabet.</li>
+ 	<li>Δ ⊆ (Q X Σ* X Γ*) X (Q × Γ*) is the transition relationship.</li>
+ 	<li>q0 is the initial state, where q0 ∈ Q.</li>
+ 	<li>F is a set of states of Q (that is, F ⊆ Q) called acceptance states.</li>
+</ul>
+<hr/>
+</div>

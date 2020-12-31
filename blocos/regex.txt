@@ -1,0 +1,22 @@
+<div id="PT">
+
+<p>As linguagens regulares constituem a classe de linguagens com menor poder de representação, sendo possível desenvolver algoritmos de reconhecimento, existindo várias aplicações, como a analise léxica, sistemas de animação, hipertextos e hipermédia (Menezes, 2000). As linguagens regulares podem ser presentadas por um autómato finito e por uma Expressão Regular (REGEX).</p>
+
+<p><strong>REGEX – Expressões Regulares</strong> – uma forma sequencial de especificar uma linguagem regular, através de um padrão de <em>Strings </em>que descreve o mesmo que pode ser descrito por um autómato finito.  Um exemplo, em notação UNIX de uma REGEX “ [A-Z][a-z]*[ ][A-Z][A-Z]”  representa uma palavra iniciada com maiúscula, seguida de espaço e duas maiúsculas, nesta seria aceite a sequência “Porto PT”.</p>
+<hr/>
+</div>
+<div id="ES">
+
+<p>Los lenguajes regulares constituyen la clase de lenguajes con menor poder de representación, siendo posible desarrollar algoritmos de reconocimiento, existiendo varias aplicaciones como el análisis léxico, los sistemas de animación, los hipertextos y los hipermedios (Menezes, 2000). Los lenguajes regulares pueden ser presentados por un autómata finito y por una Expresión Regular (REGEX).</p>
+
+<p><strong>REGEX - Expresiones Regulares - </strong>una forma secuencial de especificar un lenguaje regular, a través de un patrón de cadenas que describe lo mismo que puede ser descrito por un autómata finito.  Un ejemplo, en la notación UNIX de un REGEX "A-Za-z*[ ][A-Z][A-Z]" representa una palabra que comienza con una letra mayúscula, seguida de un espacio y dos letras mayúsculas, en la que se aceptaría la secuencia "Puerto PT".</p>
+<hr/>
+</div>
+
+<div id="EN">
+
+<p>Regular languages constitute the class of languages with less power of representation, and it is possible to develop recognition algorithms, with several applications, such as lexical analysis, animation systems, hypertexts, and hypermedia (Menezes, 2000). Regular languages can be presented by a finite automaton and a Regular Expression (REGEX). </p>
+
+<p><strong>REGEX - Regular Expressions</strong> - a sequential way to specify a regular language, through a pattern of Strings that explains the same that can be described by a finite automaton. An example, in UNIX notation of a REGEX “[A-Z] [a-z] * [] [A-Z] [A-Z]” represents a word beginning with a capital letter, followed by a space and two capital letters, in which the sequence “Porto PT” would be accepted. </p>
+<hr/>
+</div>

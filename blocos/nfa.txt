@@ -1,0 +1,43 @@
+<div id="PT">
+
+<p><strong>NFA – Autómatos Finitos Não-Deterministas</strong> – semelhantes aos DFA, diferenciando-se na Função, que ao processar uma entrada composta pelo estado corrente e o símbolo lido, tem como resultado um conjunto de novos estados. É representado formalmente por uma 5-tupla (Q, Σ, δ, q0, F), onde:</p>
+<ul>
+ 	<li>Q é um conjunto finito de estados.</li>
+ 	<li>Σ é um conjunto finito de símbolos, Alfabeto.</li>
+ 	<li>δ é a função de transição, isto é, δ: Q x Σ → P(Q).
+<ul>
+ 	<li>P(Q) conjunto das partes de Q.</li>
+</ul>
+</li>
+ 	<li>q0 é o estado inicial, onde q0 ∈ Q.</li>
+ 	<li>F é um subconjunto de estados de Q (isto é, F ⊆ Q) chamado de estados de aceitação.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="ES">
+
+<p><strong>NFA - Autómatas finitos no deterministas - </strong>similares al DFA, diferenciándose en la Función, que al procesar una entrada compuesta por el estado actual y el símbolo leído, resulta en un conjunto de nuevos estados. Está formalmente representado por una 5-tupla (Q, Σ, δ, q0, F), donde:</p>
+<ul>
+ 	<li>Q es un conjunto finito de estados.</li>
+ 	<li>Σ es un conjunto finito de símbolos, el Alfabeto.</li>
+ 	<li>δ es la función de transición, es decir δ: Q x Σ → P(Q).</li>
+ 	<li>P(Q) conjunto de partes de Q.</li>
+ 	<li>q0 es el estado inicial, donde q0 ∈ Q.</li>
+ 	<li>F es un conjunto de estados de Q (es decir, F ⊆ Q) llamados estados de aceptación.</li>
+</ul>
+<hr/>
+</div>
+
+<div id="EN">
+<p><strong>NFA - Finite Non-Deterministic Automata </strong>- similar to DFA, differing in Function, which, when processing an entry composed of the current state and the read symbol, results in a set of new states. It is formally represented by a 5-tuple (Q, Σ, δ, q0, F), where:</p>
+<ul>
+ 	<li>Q is a finite set of states.</li>
+ 	<li>Σ is a finite set of symbols, Alphabet.</li>
+ 	<li>δ is the transition function, that is, δ: Q x Σ → P (Q).</li>
+ 	<li>P (Q) set of parts of Q.</li>
+ 	<li>q0 is the initial state, where q0 ∈ Q.</li>
+ 	<li>F is a set of states of Q (that is, F ⊆ Q) called acceptance states.</li>
+</ul>
+<hr/>
+</div>

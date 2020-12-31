@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<!--Versão 0.92 06/05/2020-->
+	<head>
+		<title>UAbALL</title>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="UAbALL - Automata Learning Lab | Um Simulador para o Ensino."/>
+		<meta name="keywords" content="Automatos, gramaticas e Maquinas Touring" />
+		<meta name="author" content="André Maciel Sousa" />
+		<meta name="generator" content="Visual Studio Code" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script type="text/javascript">
+			function idioma() {
+				switch (navigator.language.substring(0, 2)) {
+					case "en":
+						window.location.href = "./start.html?lang=EN";
+						break;
+					case "es":
+						window.location.href = "./start.html?lang=ES";
+						break;
+					default:
+						window.location.href = "./start.html?lang=PT";
+						break;
+				}
+			}
+		</script>
+	</head>
+	<body onload="idioma();"></body>
+</html>

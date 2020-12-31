@@ -1,0 +1,13 @@
+<ul id="menu">
+<li onclick="main(home);"><a href="#home">Home</a></li>
+<li onclick="main(dfa);"><a href="#dfa">DFA</a></li>
+<li onclick="main(nfa);"><a href="#nfa">NFA</a></li>
+<li onclick="main(enfa);"><a href="#nfae">NFA-ε</a></li>
+<li onclick="main(pda);"><a href="#pda">PDA</a></li>
+<li onclick="main(turing);"><a href="#turing">TURING</a></li>
+<li onclick="main(regex);"><a href="#regex">REGEX</a></li>
+<li onclick="main(grammar);"><a href="#grammar">GRAMMAR</a></li>
+<li class="esp"><a href="./start.html?lang=ES"></a></li>
+<li class="eng"><a href="./start.html?lang=EN"></a></li>
+<li class="prt"><a href="./start.html?lang=PT"></a></li>
+</ul>
