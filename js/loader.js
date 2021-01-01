@@ -15,6 +15,7 @@ var pda = "./blocos/pda.txt #";
 var turing = "./blocos/turing.txt #";
 var regex = "./blocos/regex.txt #";
 var grammar = "./blocos/grammar.txt #";
+var suporte = "./blocos/suporte.txt #";
 
 // Funcao principal para carregamento conteudos
 function main(body) {
@@ -28,7 +29,7 @@ function main(body) {
 		$("#corpo").load(body + lang);
 		// adicionar nova div para animacao "proximas versoes"
 		$("#mycanvas").remove();
-		if (body != home && body != dfa) {
+		if (body != home && body != dfa && boddy != suporte) {
 			cria_newDiv(lang);
 		}
 		$("#footer").load(footer + lang);
