@@ -1,4 +1,4 @@
-// Versão 0.98 17/08/2020
+// Versão 1.01 02/01/2021
 // Variaveis Globais
 var startedAnimation = false;
 var lang; //idioma
@@ -29,7 +29,7 @@ function main(body) {
 		$("#corpo").load(body + lang);
 		// adicionar nova div para animacao "proximas versoes"
 		$("#mycanvas").remove();
-		if (body != home && body != dfa && boddy != suporte) {
+		if (body != home && body != dfa && body != suporte) {
 			cria_newDiv(lang);
 		}
 		$("#footer").load(footer + lang);

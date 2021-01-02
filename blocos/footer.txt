@@ -1,6 +1,6 @@
-<p id="PT">Projeto de Engenharia Informática 2020 de <a href="https://www.andremaciel.pt">André Maciel Sousa</a>
-<small>V.1.0</small> </p>
-<p id="EN">Computer Engineering Project 2020 of <a href="https://www.andremaciel.pt">André Maciel Sousa</a>
-<small>V.1.0</small> </p>
-<p id="ES">Proyecto de Ingeniería Informática 2020 de <a href="https://www.andremaciel.pt">André Maciel Sousa</a>
-<small>V.1.0</small> </p>
+<p id="PT">Projeto de Engenharia Informática 2020 de <a href="https://www.andremaciel.pt" target="_blank">André Maciel Sousa</a>
+<small>V.1.1</small> </p>
+<p id="EN">Computer Engineering Project 2020 of <a href="https://www.andremaciel.pt" target="_blank">André Maciel Sousa</a>
+<small>V.1.1</small> </p>
+<p id="ES">Proyecto de Ingeniería Informática 2020 de <a href="https://www.andremaciel.pt target="_blank"">André Maciel Sousa</a>
+<small>V.1.1</small> </p>
