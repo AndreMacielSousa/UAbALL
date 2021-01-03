@@ -17,16 +17,16 @@
         <ul>
             <li>1. Aceitação Strings binarias que não tenham consecutivos 1's: <a href="./ExemplosDFA/1UAbALL_Fig4.txt"
                     target="_blank" style="color: blue;">Download</a></li><br>
-            <li>2. Aceitação Strings binarias que não tenham consecutivos 1's [conceito encravamento]: <a href="./ExemplosDFA/2UAbALL_Fig4b.txt"
-                target="_blank" style="color: blue;">Download</a></li><br>
+            <li>2. Aceitação Strings binarias que não tenham consecutivos 1's [conceito encravamento]: <a
+                    href="./ExemplosDFA/2UAbALL_Fig4b.txt" target="_blank" style="color: blue;">Download</a></li><br>
             <li>3. Aceitação Strings binarias de multimplos de 8: <a href="./ExemplosDFA/3Mult8binarios.txt"
-                target="_blank" style="color: blue;">Download</a></li><br>
+                    target="_blank" style="color: blue;">Download</a></li><br>
             <li>4. Aceitação Strings numéricas de número par: <a href="./ExemplosDFA/4UAbALL_numero par.txt"
-                target="_blank" style="color: blue;">Download</a></li><br>
-            <li>5. Aceitação Strings terminadas em "ing": <a href="./ExemplosDFA/5ing.txt"
-                target="_blank" style="color: blue;">Download</a></li><br>
+                    target="_blank" style="color: blue;">Download</a></li><br>
+            <li>5. Aceitação Strings terminadas em "ing": <a href="./ExemplosDFA/5ing.txt" target="_blank"
+                    style="color: blue;">Download</a></li><br>
             <li>6. Aceitação Strings binárias com quatidade impar de 1's: <a href="./ExemplosDFA/6NumeroImpar1s.txt"
-                target="_blank" style="color: blue;">Download</a></li><br>
+                    target="_blank" style="color: blue;">Download</a></li><br>
         </ul>
         <li><a href="./Manuais/Manual_v1.0.pdf" target="_blank" style="color: blue;">Manual v1.0</a></li><br>
         <li>Relatório do Projecto - <a href="http://hdl.handle.net/10400.2/10079" target="_blank"
@@ -45,9 +45,83 @@
 </div>
 
 <div id="ES">
-    <h1>En construcción...</h1>
+    <h2>V1.1 [03/01/2021]</h2>
+    <ul>
+
+        <li>Agregó esta página de soporte </li><br>
+        <li>Repositorio Agregado<a href="https://github.com/AndreMacielSousa/UAbALL" target="_blank"
+                style="color:blue;"> GitHub </a></li>
+
+    </ul>
+    <h2>V1.0 [14/09/2020]</h2>
+    <ul>
+        <li> El profesor Doctor Jorge Morais presenta el tutorial UAbALL:
+            <a href="https://youtu.be/gbdV86m0_TI" target="_blank" style="color:blue;"> Vídeo </a>
+
+        </li><br>
+        <li> Los archivos de ejemplo para DFA:</li><br>
+        <ul>
+            <li>1. Aceptación Cadenas binarias que no tienen unos consecutivos: <a href="./ExemplosDFA/1UAbALL_Fig4.txt"
+                    target="_blank" style="color: blue;">Download</a></li><br>
+            <li>2. Aceitação Strings binarias que não tenham consecutivos 1's [conceito encravamento]: <a
+                    href="./ExemplosDFA/2UAbALL_Fig4b.txt" target="_blank" style="color: blue;">Download</a></li><br>
+            <li>3. Aceptación de cadenas binarias de múltiplos de 8: <a href="./ExemplosDFA/3Mult8binarios.txt"
+                    target="_blank" style="color: blue;">Download</a></li><br>
+            <li>4. Aceptando cadenas numéricas de números pares: <a href="./ExemplosDFA/4UAbALL_numero par.txt"
+                    target="_blank" style="color: blue;">Download</a></li><br>
+            <li>5. Aceptando cadenas que terminan en "ing": <a href="./ExemplosDFA/5ing.txt" target="_blank"
+                    style="color: blue;">Download</a></li><br>
+            <li>6. Aceptación de cadenas binarias con una cantidad impar de unos: <a href="./ExemplosDFA/6NumeroImpar1s.txt"
+                    target="_blank" style="color: blue;">Download</a></li><br>
+        </ul>
+        <li><a href="./Manuais/Manual_v1.0.pdf" target="_blank" style="color: blue;">Manual v1.0</a></li><br>
+        <li>Reporte de Proyecto - <a href="http://hdl.handle.net/10400.2/10079" target="_blank"
+                style="color: blue;">http://hdl.handle.net/10400.2/10079</a></li><br>
+        <li>El Automata Learning Lab de la Universidade Aberta (UAbALL), pretende ser un laboratorio integrado para la
+            simulación de autómatas. En una primera fase enfocada en construir la base e introducir la Simulación de
+            Autómatas Determinantes Finitos (DFA). Este Laboratorio tiene como objetivo gozar de extensibilidad y
+            adaptabilidad, siendo este documento una base técnica y científica para la producción futura del resto de
+            componentes, así como adaptado a las nuevas realidades tecnológicas y plataformas de distribución.</li>
+    </ul>
 </div>
 
 <div id="EN">
-    <h1>Under construction...</h1>
+    <h2>V1.1 [03/01/2021]</h2>
+    <ul>
+
+        <li>Added This Support Page </li><br>
+        <li>Added Repository <a href="https://github.com/AndreMacielSousa/UAbALL" target="_blank" style="color:blue;">
+                GitHub </a></li>
+
+    </ul>
+    <h2>V1.0 [14/09/2020]</h2>
+    <ul>
+        <li> Prof. Dr. Jorge Morais presents tutorial UAbALL:
+            <a href="https://youtu.be/gbdV86m0_TI" target="_blank" style="color:blue;"> Video </a>
+
+        </li><br>
+        <li> Sample files for DFA:</li><br>
+        <ul>
+            <li>1. Acceptance Binary strings that do not have consecutive 1's: <a href="./ExemplosDFA/1UAbALL_Fig4.txt"
+                    target="_blank" style="color: blue;">Download</a></li><br>
+            <li>2. Acceptance Binary strings that do not have consecutive 1's [interlocking concept]: <a
+                    href="./ExemplosDFA/2UAbALL_Fig4b.txt" target="_blank" style="color: blue;">Download</a></li><br>
+            <li>3. Binary strings acceptance of multiples of 8: <a href="./ExemplosDFA/3Mult8binarios.txt"
+                    target="_blank" style="color: blue;">Download</a></li><br>
+            <li>4. Accepting even numeric strings: <a href="./ExemplosDFA/4UAbALL_numero par.txt" target="_blank"
+                    style="color: blue;">Download</a></li><br>
+            <li>5. Aceitação Strings terminadas em "ing": <a href="./ExemplosDFA/5ing.txt" target="_blank"
+                    style="color: blue;">Download</a></li><br>
+            <li>6. Acceptance Binary strings with odd quantity of 1's: <a href="./ExemplosDFA/6NumeroImpar1s.txt"
+                    target="_blank" style="color: blue;">Download</a></li><br>
+        </ul>
+        <li><a href="./Manuais/Manual_v1.0.pdf" target="_blank" style="color: blue;">Manual v1.0</a></li><br>
+        <li>Project Report - <a href="http://hdl.handle.net/10400.2/10079" target="_blank"
+                style="color: blue;">http://hdl.handle.net/10400.2/10079</a></li><br>
+        <li>The "Automata Learning Lab da Universidade Aberta (UAbALL)" strives to be an integrated laboratory for
+            simulation of Automata. A first phase focused on building the base and introducing the Simulation of
+            Deterministic Finite Automata (DFA). This Laboratory intends to enjoy the capacity of extensibility and
+            adaptability, being this document a technical and scientific basis for the future production of the
+            remaining components, as well as adapted to new technological realities and distribution platforms.</li>
+    </ul>
 </div>
